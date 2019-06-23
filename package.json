@@ -1,0 +1,32 @@
+{
+    "name": "rock-paper-scissors-game",
+    "version": "1.0.0",
+    "description": "Rock Paper Scissors Game",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "webpack-dev-server",
+        "build:prod": "webpack -p"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/NShadyy/rock-paper-scissors-game.git"
+    },
+    "keywords": [
+        "webpack",
+        "javascript"
+    ],
+    "author": "Nakul Sharma",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/NShadyy/rock-paper-scissors-game/issues"
+    },
+    "homepage": "https://github.com/NShadyy/rock-paper-scissors-game#readme",
+    "devDependencies": {
+        "css-loader": "^3.0.0",
+        "style-loader": "^0.23.1",
+        "webpack": "^4.35.0",
+        "webpack-cli": "^3.3.4",
+        "webpack-dev-server": "^3.7.2"
+    }
+}
